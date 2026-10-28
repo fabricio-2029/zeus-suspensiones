@@ -17,6 +17,17 @@ function HistoriaSection() {
   );
 }
 
+// Componente del Footer oficial
+function Footer() {
+  return (
+    <footer style={styles.footerContainer}>
+      <p style={styles.footerText}>
+        © {new Date().getFullYear()} <strong>Zeus Suspensiones</strong> - Todos los derechos reservados. | Marca registrada.
+      </p>
+    </footer>
+  );
+}
+
 const styles = {
   historyContainer: {
     backgroundColor: '#1a1a1a',
@@ -42,6 +53,19 @@ const styles = {
     color: '#ccc',
     maxWidth: '750px',
     margin: '0 auto'
+  },
+  footerContainer: {
+    backgroundColor: '#111',
+    color: '#aaa',
+    textAlign: 'center',
+    padding: '1.5rem 1rem',
+    marginTop: '3rem',
+    borderTop: '1px solid #333',
+    fontSize: '0.9rem',
+    letterSpacing: '0.5px'
+  },
+  footerText: {
+    margin: 0
   }
 };
 
@@ -83,6 +107,9 @@ export default function App() {
         )}
         {currentTab === 'admin' && <Admin />}
       </main>
+
+      {/* Footer agregado abajo de todo */}
+      <Footer />
     </div>
   );
 }
