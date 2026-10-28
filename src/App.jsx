@@ -11,7 +11,7 @@ function HistoriaSection() {
     <div style={styles.historyContainer}>
       <h2 style={styles.historyTitle}>Sobre Zeus Suspensiones</h2>
       <p style={styles.historyText}>
-        Nos apasiona el rubro automotor. Nacimos con el objetivo de brindar soluciones de máxima calidad en suspensión, combinando experiencia, asesoramiento personalizado y los mejores componentes para que cada vehículo rinda al máximo en la calle o en la ruta.
+        Nos apasiona el rubro automotor, mas de 9 años en el sector nos avalan nacimos con el objetivo de brindar soluciones de máxima calidad en suspensión, combinando experiencia, asesoramiento personalizado y los mejores componentes para que cada vehículo rinda al máximo en la calle o en la ruta.
       </p>
     </div>
   );
