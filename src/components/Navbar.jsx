@@ -24,7 +24,7 @@ export default function Navbar({ currentTab, setCurrentTab, cartCount }) {
     <img 
       src="/img/logo_redondo_zeus.jpeg" 
       alt="Zeus Suspensiones" 
-      style={{ height: '40px', width: 'auto', borderRadius: '50%' }} 
+      style={{ height: '55px', width: 'auto', borderRadius: '50%' }} 
     />
   </div>
 
