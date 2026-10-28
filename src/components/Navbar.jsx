@@ -20,9 +20,13 @@ export default function Navbar({ currentTab, setCurrentTab, cartCount }) {
 
   return (
     <nav style={styles.nav}>
-      <div style={styles.logoContainer} onClick={() => handleNavClick('home')}>
-        <span style={styles.logoText}>ZEUS SUSPENSIONES</span>
-      </div>
+  <div style={styles.logoContainer} onClick={() => handleNavClick('home')}>
+    <img 
+      src="/img/logo_redondo_zeus.jpeg" 
+      alt="Zeus Suspensiones" 
+      style={{ height: '40px', width: 'auto', borderRadius: '50%' }} 
+    />
+  </div>
 
       {/* Menú normal para escritorio o hamburguesa para celular según el tamaño real */}
       {!isMobile ? (
